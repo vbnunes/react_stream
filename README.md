@@ -2,9 +2,9 @@
 Learning a bit of react and redux
 ### Some packeges used:
 redux-thunk => to make requests inside redux</br>
-react-router
-axios
-lodash => import a not optimezed way. Doing just a learning application I'm importing full lodash library
+react-router</br>
+axios</br>
+lodash => import a not optimezed way. Doing just a learning application I'm importing full lodash library</br>
 using google OAuth to authorization flow
 
 
