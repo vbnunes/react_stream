@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .sidebar{
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100vh;
+            width: 300px;
+            background-color: blueviolet;
+        }
+
+        .content{
+            margin-left: 300px;
+        }
+
+        .modal-body{
+            margin: auto;
+            background-color: white;
+            height: 30%;
+            width: 30%;
+        }
+        .modal{
+            height: 100%;
+            width: 100%;
+            position: fixed;
+            background-color: rgba(0,0,0,0.4);
+            left: 0;
+            top: 0;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="modal">
+        <div class="modal-body">
+            <h1>I'm modal</h1>
+        </div>
+    </div>
+    <div class="sidebar">I'm sidebar</div>    
+    <div class="content">
+        <h1>I'm some content</h1>
+    </div>
+</body>
+</html>
