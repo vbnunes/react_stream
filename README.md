@@ -1,7 +1,7 @@
 ## React Learning
 Learning a bit of react and redux
 ### Some packeges used:
-redux-thunk => to make requests inside redux
+redux-thunk => to make requests inside redux</br>
 react-router
 axios
 lodash => import a not optimezed way. Doing just a learning application I'm importing full lodash library
